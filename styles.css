@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+#game-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#garage {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.car {
+  width: 120px;
+  height: 80px;
+  background-color: #2ecc71;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.car:hover {
+  transform: scale(1.1);
+}
+
+.customer {
+  border: 2px solid blue;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+#task-log {
+  margin-top: 20px;
+}
+
+#tasks {
+  list-style-type: none;
+  padding: 0;
+}
+
+#tasks li {
+  margin-bottom: 5px;
+}
